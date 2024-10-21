@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    width: 100%;
+   font-size: 24px;
+  }
+  
+  .content{
+      width:60%;
+      
+      margin:auto;
+      margin-top:100px;
+      
+  }
+  
+  
+ img{
+    width:500px;
+    float:left;
+    border: 10px dashed red;
+   margin-right:20px;
+
+ }
+
+ .intro p{
+    color:red;
+ }
+ 
+  
+  header img {
+      height: 80px;
+      margin-left: 40px;
+  }
+  
+  
+  main {
+      color: white;
+  }
+  
+  
+  
+ 
+
+
+  header ul {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  header li {
+    float: left;
+  }
+  
+  header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ header li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  header .active {
+    background-color: #04AA6D;
+  }
+
+  table, th, td {
+    border: 5px solid red;
+    border-collapse: collapse;
+  }
+  td{
+    padding-top: 5px;
+  }
+
+  .gallery img{
+    width: 300px;
+    height:200px;
+   
+}
+  
+
+h1{
+  font-family:"Archivo Black";
+}
+
+.sidebar{
+  width:300px;
+  border: 5px solid black;
+  float:right;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.sidebar p{
+  color:red;
+  font-size:smaller;
+}
+
+.internal{
+  margin-top:50px;
+  float:left;
+  border:2px solid red;
+  position:fixed;
+  padding:40px;
+}
+
+.internal a{
+  font-size: larger;
+  display:block;
+  padding:10px 10px;
+}
